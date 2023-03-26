@@ -2,6 +2,7 @@
 
 A minimalist and simple server application that allows to POST and GET ip adresses from a player willing to host p2p games (for example, made in Godot).
 
+## How to interact:
 Provides two urls:
 
 * `URL:8080/host?number=<n>`: POST, inserts the client ip declaring that there are `<n>` player slots left.
@@ -17,7 +18,7 @@ Also, automatically removes timed out requests.
 Made as a part of a multiplayer games course. Only for testing and learning purposes.
  
 
-## how to use
+## how to run:
 Install dependency:
 ```
 pip install CherryPy
