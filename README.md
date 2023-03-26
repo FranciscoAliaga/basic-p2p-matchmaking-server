@@ -6,7 +6,7 @@ A minimalist and simple server application that allows to POST and GET ip adress
 Provides two urls:
 
 * `URL:8080/host?number=<n>`: POST, inserts the client ip declaring that there are `<n>` player slots left.
-    * if succesfull, returns `REQUEST UPDATED` message.
+    * if succesful, returns `REQUEST UPDATED` message.
     * if `<n>` is 0, removes the client from the ip list. Returns `REQUEST DELETED` message.
     * for negative `<n>`, returns a `400: bad_request` error message.
 * `URL:8080/join`: GET, fetches the ip adress of a hosting player that has more than one slot available.
