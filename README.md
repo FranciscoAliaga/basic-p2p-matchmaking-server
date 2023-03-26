@@ -1,6 +1,6 @@
 # basic p2p matchmaking server
 
-A minimalist and simple server application that allows to POST and GET ip adresses from player willing to host games.
+A minimalist and simple server application that allows to POST and GET ip adresses from a player willing to host p2p games (for example, made in Godot).
 
 Provides two urls:
 
