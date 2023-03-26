@@ -29,4 +29,4 @@ Using the `cherrypy.__version__ == '18.8.0'`.
 **just run**
 ```python matchmaking.py```
 
-You may want to deploy using another HTTP server, such as `nginx` as proxy. You may also [deploy using the cherrypy guide](https://docs.cherrypy.dev/en/latest/deploy.html#id6).
+You may want to deploy using another HTTP server, such as `nginx` as proxy. You may also [deploy using the cherrypy guide](https://docs.cherrypy.dev/en/latest/deploy.html).
