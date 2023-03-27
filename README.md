@@ -29,4 +29,4 @@ Using the `cherrypy.__version__ == '18.8.0'`.
 **just run**
 ```python matchmaking.py```
 
-You may want to deploy using another HTTP server, such as `nginx` as proxy. You may also [deploy using the cherrypy guide](https://docs.cherrypy.dev/en/latest/deploy.html).
+You may also [deploy using the cherrypy guide](https://docs.cherrypy.dev/en/latest/deploy.html). Note: This matchmaking server may not work properly if it is served through a reverse proxy, such as `nginx`, since it retrieves IP adresses from the header of an incoming packet: the app may guess that the client ip originated from the reverse proxy, instead of the upstream client ip.
